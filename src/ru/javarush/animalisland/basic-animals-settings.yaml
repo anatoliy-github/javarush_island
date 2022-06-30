@@ -1,0 +1,175 @@
+Island:
+  width: 100
+  height: 20
+Animal:
+  predators:
+    Wolf:
+      emoji: "🐺"
+      weight: 50.0
+      maxInLocation: 30
+      speed: 3
+      foodEnough: 8.0
+      maxChild: 3
+      probabilityEating:
+        Horse: 10
+        Deer: 15
+        Rabbit: 60
+        Mouse: 80
+        Goat: 60
+        Sheep: 70
+        Hog: 15
+        Buffalo: 10
+        Duck: 40
+    Python:
+      emoji: "🐍"
+      weight: 15.0
+      maxInLocation: 30
+      speed: 13
+      foodEnough: 3.0
+      maxChild: 3
+      probabilityEating:
+        Fox: 15
+        Rabbit: 20
+        Mouse: 40
+        Duck: 10
+    Fox:
+      emoji: "🦊"
+      weight: 8.0
+      maxInLocation: 30
+      speed: 2
+      foodEnough: 2.0
+      maxChild: 3
+      probabilityEating:
+        Rabbit: 70
+        Mouse: 90
+        Duck: 60
+        Caterpillar: 40
+    Eagle:
+      emoji: "🦅"
+      weight: 6.0
+      maxInLocation: 20
+      speed: 3
+      foodEnough: 1.0
+      maxChild: 2
+      probabilityEating:
+        Fox: 10
+        Rabbit: 90
+        Mouse: 90
+        Duck: 80
+    Bear:
+      emoji: "🐻"
+      weight: 500.0
+      maxInLocation: 5
+      speed: 2
+      foodEnough: 80.0
+      maxChild: 2
+      probabilityEating:
+        Python: 80
+        Horse: 40
+        Deer: 80
+        Rabbit: 80
+        Mouse: 90
+        Goat: 70
+        Sheep: 70
+        Hog: 50
+        Buffalo: 20
+        Duck: 10
+  herbivores:
+    Sheep:
+      emoji: "🐑"
+      weight: 70.0
+      maxInLocation: 140
+      speed: 3
+      foodEnough: 15.0
+      maxChild: 8
+      probabilityEating:
+        Plant: 100
+    Rabbit:
+      emoji: "🐇"
+      weight: 2.0
+      maxInLocation: 150
+      speed: 2
+      foodEnough: 0.45
+      maxChild: 5
+      probabilityEating:
+        Plant: 100
+    Mouse:
+      emoji: "🐁"
+      weight: 0.05
+      maxInLocation: 500
+      speed: 1
+      foodEnough: 0.01
+      maxChild: 6
+      probabilityEating:
+        Caterpillar: 90
+        Plant: 100
+    Horse:
+      emoji: "🐎"
+      weight: 400.0
+      maxInLocation: 20
+      speed: 4
+      foodEnough: 60.0
+      maxChild: 3
+      probabilityEating:
+        Plant: 100
+    Hog:
+      emoji: "🐗"
+      weight: 400.0
+      maxInLocation: 50
+      speed: 2
+      foodEnough: 50.0
+      maxChild: 5
+      probabilityEating:
+        Mouse: 50
+        Caterpillar: 90
+        Plant: 100
+    Goat:
+      emoji: "🐐"
+      weight: 60.0
+      maxInLocation: 140
+      speed: 3
+      foodEnough: 10.0
+      maxChild: 10
+      probabilityEating:
+        Plant: 100
+    Duck:
+      emoji: "🦆"
+      weight: 1.0
+      maxInLocation: 200
+      speed: 4
+      foodEnough: 0.15
+      maxChild: 10
+      probabilityEating:
+        Caterpillar: 90
+        Plant: 100
+    Deer:
+      emoji: "🦌"
+      weight: 300.0
+      maxInLocation: 20
+      speed: 4
+      foodEnough: 50.0
+      maxChild: 3
+      probabilityEating:
+        Plant: 100
+    Buffalo:
+      emoji: "🐃"
+      weight: 700.0
+      maxInLocation: 10
+      speed: 3
+      foodEnough: 100.0
+      maxChild: 2
+      probabilityEating:
+        Plant: 100
+    Caterpillar:
+      emoji: "🐛"
+      weight: 0.01
+      maxInLocation: 200
+      speed: 0
+      foodEnough: 0.0
+      maxChild: 10
+      probabilityEating:
+        Plant: 100
+Plant:
+  emoji: "🌿"
+  weight: 1.0
+  maxInLocation: 200
